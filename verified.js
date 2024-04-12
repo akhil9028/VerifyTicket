@@ -29,24 +29,23 @@ if (tickets >= 10 && tickets < 20) {
   fare = num / 100;
 } else if (tickets > 20) {
   tickets = tickets % 10;
-  fare = num / 100;
-} else {
   fare = num / 10;
 }
+
 fare = Math.floor(fare);
 
-console.log(idd);
-console.log(tickets);
-console.log(fare);
+// console.log(idd);
+// console.log(tickets);
+// console.log(fare);
 
-console.log(idd);
-console.log(totalFare);
-console.log(tickets);
+// console.log(idd);
+// console.log(totalFare);
+// console.log(tickets);
 
 document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("totalFare").textContent = fare;
   document.getElementById("bus-id").textContent = idd;
-  document.getElementById("time").textContent = time;
+  // document.getElementById("time").textContent = time;
   document.getElementById("date").textContent = dateString;
   document.getElementById("tickets").textContent = tickets;
 
