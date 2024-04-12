@@ -18,6 +18,7 @@ var timeString = currentDate.toLocaleTimeString("en-US");
 var sum = totalFare;
 
 var num = Number(sum);
+var num = parseInt(sum);
 
  num=num/10;
 
