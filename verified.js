@@ -44,7 +44,7 @@ console.log(idd);
 console.log(totalFare);
 console.log(tickets);
 
-// document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
 document.getElementById("totalFare").textContent = fare;
 document.getElementById("bus-id").textContent = idd;
 // document.getElementById("time").textContent = time;
@@ -53,4 +53,4 @@ document.getElementById("tickets").textContent = tickets;
 
 console.log("totalFare = " + totalFare);
 
-// });
+});
