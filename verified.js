@@ -43,7 +43,7 @@ fare = Math.floor(fare);
 // console.log(tickets);
 
 document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("totalFare").textContent = fare;
+  document.getElementById("totalFare").textContent = totalFare;
   document.getElementById("bus-id").textContent = idd;
   // document.getElementById("time").textContent = time;
   document.getElementById("date").textContent = dateString;
