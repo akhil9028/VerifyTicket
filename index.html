@@ -11,13 +11,15 @@
       <div class="ticket">
         <div class="ticketTitle">VERIFIED</div>
         <div class="shield">
-          <img src="shield3.png" alt="" width="200px" height="200px" />
+          <img src="images/shield3.png" alt="" width="200px" height="200px" />
         </div>
         <hr />
         <div class="ticketDetail">
-          <div id="bus-id">Bus id:&ensp; 298</div>
-          <div id="passPrice">Price:&nbsp; 100 Rs</div>
-          <div id="tickets">Date:&emsp; 16:40</div>
+          <div>Bus id: <span id="bus-id">298</span></div>
+          <div>Price: <span id="totalFare">100</span></div>
+          <div>Tickets: <span id="tickets">16:40</span></div>
+          <!-- <div>Date: <span id="date">16:40</span></div> -->
+          <div>Time: <span id="time">16:40</span></div>
         </div>
         <div class="ticketRip">
           <div class="circleLeft"></div>
@@ -25,11 +27,12 @@
           <div class="circleRight"></div>
         </div>
         <div class="ticketSubDetail">
-          <div class="code">Valid Till:12:00PM</div>
-          <div class="date">5 April<sup>th</sup> 2024</div>
+          <div id="date">5 April</div>
         </div>
       </div>
       <div class="ticketShadow"></div>
     </div>
+
+    <script src="verified.js"></script>
   </body>
 </html>
