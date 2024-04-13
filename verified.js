@@ -1,7 +1,7 @@
-console.log("value = " + totalFare);
+ 
 var urlParams = new URLSearchParams(window.location.search);
 // var sum = urlParams.get("sum");
-var totalFare = urlParams.get("totalFare");
+var total = urlParams.get("totalFare");
 // var tickets = urlParams.get("tickets");
 var time = urlParams.get("time");
 
@@ -14,7 +14,7 @@ var dateString = currentDate.toLocaleDateString("en-US", {
 });
 var timeString = currentDate.toLocaleTimeString("en-US");
 
-var sum = totalFare;
+var sum = total;
 
 var num = Number(sum);
 // var num = parseInt(sum);
@@ -44,7 +44,7 @@ console.log(tickets);
 console.log(fare);
 
 console.log(idd);
-console.log(totalFare);
+console.log(total);
 console.log(tickets);
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -54,6 +54,6 @@ document.getElementById("bus-id").textContent = idd;
 document.getElementById("date").textContent = dateString;
 document.getElementById("tickets").textContent = tickets;
 
-console.log("totalFare = " + totalFare);
+ 
 
 });
