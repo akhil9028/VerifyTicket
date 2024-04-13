@@ -36,6 +36,9 @@ if (tickets >= 10 && tickets < 20) {
   tickets = tickets % 10;
   fare = num / 10;
 }
+else{
+ fare=num/10;
+}
 
 fare = Math.floor(fare);
 
