@@ -20,9 +20,6 @@ var sum = totalFare;
 var num = Number(sum);
 var num = parseInt(sum);
 
- num=num/10;
-
-
 idd = num % 1000;
 num = num / 1000;
 tickets = Math.floor(num % 100);
