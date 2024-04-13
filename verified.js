@@ -1,9 +1,8 @@
 console.log("value = " + totalFare);
 var urlParams = new URLSearchParams(window.location.search);
-var sum = urlParams.get("sum");
+// var sum = urlParams.get("sum");
 var totalFare = urlParams.get("totalFare");
-var tickets = urlParams.get("tickets");
-var idd;
+// var tickets = urlParams.get("tickets");
 var time = urlParams.get("time");
 
 var currentDate = new Date();
@@ -18,8 +17,14 @@ var timeString = currentDate.toLocaleTimeString("en-US");
 var sum = totalFare;
 
 var num = Number(sum);
-var num = parseInt(sum);
+// var num = parseInt(sum);
+
+ num = parseInt(sum);
 // num=num/10;
+
+var fare=0;
+var id=0;
+var tickets=0;
 
 idd = num % 1000;
 num = num / 1000;
